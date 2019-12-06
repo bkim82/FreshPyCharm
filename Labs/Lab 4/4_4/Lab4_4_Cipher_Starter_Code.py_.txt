@@ -1,0 +1,52 @@
+import random
+
+e_dict = {}  # Global Variable; Encryption dictionary
+d_dict = {}  # Global Variable; Decryption dictionary
+
+
+def load_cipher_file(file_name):
+
+    Loads a cipher from the specified file.
+
+    This function sets e_dict to encrypt messages and d_dict to decrypt messages.
+
+    """
+
+
+def encrypt_or_decrypt_message(dictionary, msg):
+    """
+    This function takes a message as a parameter and performs a
+    character-by-character substitution on that message using the dictionary
+    parameter.  The function returns the new "substituted" message.
+
+    This function can be used for either encryption or for decryption, depending on
+    the dictionary passed as a parameter. The function does not get any input from
+    the user nor does it print anything to the screen.
+
+    If a letter in the input is lowercase, it will be capitalized and then substituted.
+
+    If a character in the message is not in the cipher dictionary, the character
+    is placed directly in the output message without alteration.
+    """
+
+
+def create_key():
+    """
+    OPTIONAL function -- only create this one once you have completed everything else!
+
+    Creates a new random cipher key and prints the key to the console.
+    The user needs to copy this key into a file if desired.
+    """
+
+
+def main():
+    """
+    Handles all user interaction in the program.
+    It begins by asking the user which cipher file to load.
+    It then calls load_cipher_file to load the dictionaries.
+    Next, it Prints the menu, looping until the user decides to quit.
+    It calls encrypt_or_decrypt_message as necessary to encrypt/decrypt messages.
+    """
+
+
+main()
